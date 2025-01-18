@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sign Up</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container-main">
+      <h1>Sign Up</h1>
+      <hr />
+
+      <div class="container-main">
+        <!-- Form -->
+        <form class="form" action="#" method="get">
+          <div class="container">
+            <div class="item">
+              <label for="fname">First Name</label>
+              <input
+                class="textbox"
+                type="text"
+                id="fname"
+                placeholder="Enter first name"
+                autofocu
+                name="fname"
+              />
+            </div>
+            <div class="item">
+              <label for="lname">Last Name</label>
+              <input
+                class="textbox"
+                type="text"
+                id="lname"
+                placeholder="Enter last name"
+                name="lname"
+              />
+            </div>
+            <div class="item">
+              <label for="email">Email</label>
+              <input
+                class="textbox"
+                id="email"
+                type="email"
+                placeholder="Enter your email"
+                name="email"
+              />
+            </div>
+            <div class="item">
+              <label for="password">Password</label>
+              <input
+                class="textbox"
+                id="password"
+                type="password"
+                placeholder="Enter password"
+                name="password"
+              />
+            </div>
+            <div class="item">
+              <label for="telNo">Contact</label>
+              <input
+                class="textbox"
+                id="telNo"
+                name="contact"
+                placeholder="Enter Contact Number"
+                type="tel"
+                list="defaultTels"
+              />
+            </div>
+            <div class="item">
+              <label for="gender">Gender</label>
+              <div id="gender" style="padding-right: 22%">
+                <input type="radio" id="male" name="gender" value="male" />
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" />
+                <label for="female">Female</label>
+              </div>
+            </div>
+            <div class="item">
+              <div style="margin-top: 20px">
+                <input type="checkbox" id="T&C" name="T&C" />
+                <label for="T&C">I accept term and conditions T & C</label>
+              </div>
+            </div>
+            <input class="btn-submit" type="submit" />
+          </div>
+        </form>
+        <!-- Form -->
+      </div>
+    </div>
+    <script src="JS/script.js"></script>
+  </body>
+</html>
